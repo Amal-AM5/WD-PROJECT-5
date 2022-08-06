@@ -1,0 +1,72 @@
+/*
+
+    body { color: red; }
+
+*/
+
+@media (max-width: 1440px) {
+
+    .row { width: 80%;}
+
+    .slider .theme .owl-nav .owl-next {
+        left: 4200%;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+
+    .row { width: 96%;}
+
+    header .span-1-of-3:nth-of-type(1) { width: 10%;}
+    header .span-1-of-3:nth-of-type(2) { width: 60%;}
+    header .span-1-of-3:nth-of-type(3) { width: 20%;}
+
+    header .span-1-of-3:nth-of-type(2) ul li { margin-left: 5px;}
+
+    .slider .theme .owl-nav { top: 10%; }
+
+    .slider .theme .owl-nav .owl-next { 
+        left: 3000%;
+    }
+
+    .section-pay .row .span-1-of-2:nth-of-type(2) ul li {
+        font-size: 65%;
+        width: 100px;
+        height: 40px;
+        padding: 4px;
+
+    }
+
+    .section-service .row .span-1-of-6 p { font-size: 75%; font-weight: bold;}
+
+    .section-service .row .span-1-of-6 { 
+        margin-right: 0; 
+        margin-left: 0;
+        width: 150px;
+        height: 150px;
+    
+    }
+
+    .section-explore .span-1-of-2:nth-of-type(2) img {
+        width: 80%;
+        top: 220px;
+    }
+
+    .display-block { width: 90%; }
+
+    .section-prepaid .span-1-of-2:nth-of-type(2) img {
+        width: 50%;
+        top: 80px;
+        right: 60px;
+    }
+
+    footer .span-1-of-5:nth-of-type(5) ul li {
+        width: 40px;
+        height: 40px;
+    }
+
+    footer .span-1-of-5:nth-of-type(5) ul li img { width: 50%;}
+
+}
